@@ -9,7 +9,19 @@
 
  /*The second element: blue text and a font size of 36px */
  #selement {
-     color: #1d05fa;
-     font-size: 36px;
+    color: #1d05fa;
+    font-size: 36px;
  }
- 
+
+ /* The third element: in addition to the styles for all odd numbered elements, add a font size of 24px */
+ .telement {
+     font-size: 24px;
+ }
+
+ /*The fourth element: a light green background, a font size of 24px, and bold*/
+ #felement {
+     background-color: #32fa05;
+     font-size: 24px;
+     font-weight: bold;
+ }
+
