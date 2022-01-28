@@ -1,0 +1,15 @@
+ /* All odd numbered elements: a light red/pink background, 
+ and a list of fonts containing Verdana and DejaVu Sans with sans-serif as a fallback */
+
+ p:nth-child(odd) {
+    background-color: #ff54c9;
+    font-family: Verdana, DejaVu, sans-serif;
+ }
+
+
+ /*The second element: blue text and a font size of 36px */
+ #selement {
+     color: #1d05fa;
+     font-size: 36px;
+ }
+ 
