@@ -1,6 +1,11 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  flex: 1 1 auto; /* properties affect how flex items size themselves within their container */
+  justify-content: space-between; /* to create The available space after displaying the items is distributed between the items*/
+  align-items: center;
+  padding: 8px;
 }
 
 .logo {
@@ -9,12 +14,21 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px;
+  
 }
 
 ul {
   /* this removes the dots on the list items*/
+  display: flex;
+  flex: 1;
+  gap: 8px;
   list-style-type: none;
+
+ 
+ 
 }
+
 
 a {
   font-size: 22px;
